@@ -31,4 +31,12 @@ return {
   --     },
   --   },
   -- },
+
+  { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.svelte" },
+  { import = "astrocommunity.pack.html-css" },
+
+  { import = "astrocommunity.motion.mini-move" },
+  
 }
