@@ -13,6 +13,10 @@ return {
     opts = {},
   },
 
+  {
+    "shaunsingh/nord.nvim",
+  },
+
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { -- further customize the options set by the community
   --   "catppuccin",
