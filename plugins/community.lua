@@ -60,6 +60,17 @@ return {
   -- { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   { import = "astrocommunity.bars-and-lines.scope-nvim" },
 
+  { import = "astrocommunity.project.project-nvim" },
+  { import = "astrocommunity.terminal-integration.flatten-nvim" },
+  { import = "astrocommunity.workflow.hardtime-nvim" },
+
+  { import = "astrocommunity.editing-support.text-case-nvim" },
+  { import = "astrocommunity.editing-support.vim-move" },
+
+  { import = "astrocommunity.git.diffview-nvim" },
+  { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.scrolling.mini-animate" },
+
   { import = "astrocommunity.pack.proto" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.lua" },
@@ -67,17 +78,7 @@ return {
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.html-css" },
 
+  { import = "astrocommunity.programming-language-support.web-tools-nvim" },
+
   { import = "astrocommunity.code-runner.compiler-nvim" },
-
-  { import = "astrocommunity.git.diffview-nvim" },
-  { import = "astrocommunity.git.git-blame-nvim" },
-
-  { import = "astrocommunity.project.project-nvim" },
-
-  { import = "astrocommunity.editing-support.text-case-nvim" },
-
-  { import = "astrocommunity.editing-support.vim-move" },
-  { import = "astrocommunity.terminal-integration.flatten-nvim" },
-  { import = "astrocommunity.workflow.hardtime-nvim" },
-  { import = "astrocommunity.scrolling.mini-animate" },
 }
