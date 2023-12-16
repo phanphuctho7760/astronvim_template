@@ -5,13 +5,6 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
-  
-  {
-    "folke/tokyonight.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {},
-  },
 
   {
     "shaunsingh/nord.nvim",
@@ -36,11 +29,23 @@ return {
   --   },
   -- },
 
+  -- {
+  --   "folke/tokyonight.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --   opts = {},
+  -- },
+  -- The same
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+
+  { import = "astrocommunity.pack.proto" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.html-css" },
 
-  { import = "astrocommunity.motion.mini-move" },
-  
+  -- { import = "astrocommunity.motion.mini-move" },
+
+  { import = "astrocommunity.git/diffview-nvim" },
 }
