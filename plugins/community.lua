@@ -6,10 +6,6 @@ return {
 
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 
-  {
-    "shaunsingh/nord.nvim",
-  },
-
   -- lazy.nvim:
   {
     "smoka7/multicursors.nvim",
@@ -48,6 +44,11 @@ return {
   --   },
   -- },
 
+  -- Theme
+  {
+    "shaunsingh/nord.nvim",
+  },
+
   -- {
   --   "folke/tokyonight.nvim",
   --   lazy = false,
@@ -56,6 +57,7 @@ return {
   -- },
   -- The same
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
 
   { import = "astrocommunity.pack.proto" },
   { import = "astrocommunity.pack.go" },
@@ -64,8 +66,17 @@ return {
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.html-css" },
 
-  -- { import = "astrocommunity.motion.mini-move" },
+  { import = "astrocommunity.code-runner.compiler-nvim" },
 
   { import = "astrocommunity.git.diffview-nvim" },
+  { import = "astrocommunity.git.git-blame-nvim" },
+
   { import = "astrocommunity.project.project-nvim" },
+
+  { import = "astrocommunity.editing-support.text-case-nvim" },
+
+  { import = "astrocommunity.editing-support.vim-move" },
+  { import = "astrocommunity.terminal-integration.flatten-nvim" },
+  { import = "astrocommunity.workflow.hardtime-nvim" },
+  { import = "astrocommunity.scrolling.mini-animate" },
 }
