@@ -82,4 +82,8 @@ return {
 
   { import = "astrocommunity.programming-language-support.web-tools-nvim" },
   { import = "astrocommunity.code-runner.compiler-nvim" },
+
+  { import = "astrocommunity.debugging.telescope-dap-nvim" },
+  { import = "astrocommunity.debugging.nvim-bqf" },
+  { import = "astrocommunity.debugging.nvim-dap-repl-highlights" },
 }
