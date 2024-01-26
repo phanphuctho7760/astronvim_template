@@ -62,7 +62,7 @@ return {
 
   { import = "astrocommunity.project.project-nvim" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
-  { import = "astrocommunity.workflow.hardtime-nvim" },
+  -- { import = "astrocommunity.workflow.hardtime-nvim" },
 
   { import = "astrocommunity.editing-support.text-case-nvim" },
   { import = "astrocommunity.editing-support.vim-move" },
