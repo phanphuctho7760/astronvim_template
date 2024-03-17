@@ -71,9 +71,9 @@ return {
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
-    vim.api.nvim_create_autocmd("VimEnter", {
-      command = "Telescope projects",
-    })
+    -- vim.api.nvim_create_autocmd("VimEnter", {
+    --   command = "Telescope projects",
+    -- })
 
     -- Set up custom filetypes
     -- vim.filetype.add {
