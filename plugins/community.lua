@@ -57,6 +57,8 @@ return {
   -- },
   -- The same
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.color.transparent-nvim" },
+  { import = "astrocommunity.color.twilight-nvim" },
   -- { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   { import = "astrocommunity.bars-and-lines.scope-nvim" },
 
